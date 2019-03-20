@@ -14,7 +14,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='3.0.0',
+    version='3.1.0',
 
     description='Political-Administrative Division of Chile',
     long_description=long_description,
@@ -33,14 +33,13 @@ setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
-        'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: Spanish',
         'Operating System :: Unix',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6.8',
     ],
 
     # What does your project relate to?
@@ -61,7 +60,7 @@ setup(
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
-        'django>=1.7',
+        'django>=2.1.7',
         'urllib3',
         'bunch'
     ],
