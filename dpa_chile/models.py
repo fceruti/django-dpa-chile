@@ -38,6 +38,3 @@ class Comuna(models.Model):
 
     def __str__(self):
         return self.nombre
-
-class A(models.Model):
-    attr = models.CharField(max_length=50)
